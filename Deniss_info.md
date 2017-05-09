@@ -1,4 +1,2 @@
-* NAME: Deniss.wang
-* DATE: 2017.5.9
-* Q  Q: 9935226
+* NAME: deniss.wang
 * BLOG: wolf7.org
