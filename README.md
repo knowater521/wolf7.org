@@ -1,1 +1,1 @@
-* BLOG: wolf7.org
+* BLOG: http://wolf7.org
