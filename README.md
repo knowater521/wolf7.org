@@ -1,2 +1,1 @@
-* NAME: deniss.wang
-* BLOG: wolf7.org
+* BLOG: www.wolf7.org
