@@ -39,16 +39,3 @@
 
 + pdf 格式 [下载](https://www.gitbook.com/download/pdf/book/opsnull/follow-me-install-kubernetes-cluster)
 + epub 格式 [下载](https://www.gitbook.com/download/epub/book/opsnull/follow-me-install-kubernetes-cluster)
-
-## 版权
-
-Copyright 2017 zhangjun(geekard@qq.com)
-
-Apache License 2.0，详情见 [LICENSE](LICENSE) 文件。
-
-
-如果你觉得这份文档对你有帮助，请微信扫描下方的二维码进行捐赠，加油后的 opsnull 将会和你分享更多的原创教程，谢谢！
-
-<p align="center">
-  <img src="https://github.com/opsnull/follow-me-install-kubernetes-cluster/blob/master/images/weixin_qr.jpg?raw=true" alt="weixin_qr.jpg"/>
-</p>
