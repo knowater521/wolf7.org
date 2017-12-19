@@ -1,6 +1,6 @@
 #!/bin/bash
 # Deniss.wang
-# Check 4xx and 5xx in logs
+# Check 4xx and 5xx in logs and send Email
 # Add own filter url file list and Assign error url directory 
 # Date: 2017-11-20
 #
