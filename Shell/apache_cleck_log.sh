@@ -1,7 +1,7 @@
 #!/bin/bash
 # Deniss.wang
 # Check 4xx and 5xx in logs
-# Add your own filter url file list and Assign error url directory 
+# Add own filter url file list and Assign error url directory 
 # Date: 2017-11-20
 #
 #log_file='/var/log/httpd/access_log'
