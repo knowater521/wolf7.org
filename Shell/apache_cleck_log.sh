@@ -13,7 +13,7 @@ email_add='deniss.wang@example.com'
 statuscode_list=(404 401 403 400 500 501 503 504)
 web_filter_list='robot.txt|favicon.ico|testproxy.php|device_description.xml'
 directory_list=(agency advertiser manager)
-# If 4xx/5xx and sendEmail  function
+# If 4xx/5xx and sendEmail function
 web_code_sendemail(){
     for code_list in ${statuscode_list[*]}
     do
