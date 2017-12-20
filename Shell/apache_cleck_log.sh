@@ -33,7 +33,7 @@ web_code_sendemail(){
         done
     done
 }
-# check log directory exists and exec web_code_sendemail function
+# check log file exists and exec web_code_sendemail function
 check_log(){
     if [[ -f $log_file ]];then
         web_code_sendemail
