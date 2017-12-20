@@ -25,7 +25,7 @@ web_code_sendemail(){
         check_dir_list=`tail -n 50 $log_file|grep -w $dir_list|grep -w $code_list|egrep -v $web_filter_list|awk 'END {print}'|awk '{print $8}' |awk -F'/' '{print $2}'`
             if [[ $dir_list == $check_dir_list && $statuscode == $code_list &&  $status_time == $now_time ]];then
             # print log detail send to Email
-                echo "Los Detail: $detail " | mail -s "$code_list error of $project" $email_add
+                echo "Logs Detail: $detail " | mail -s "$code_list error of $project" $email_add
             else
                 echo "no error in logs" > /dev/null 2>&1
             fi
