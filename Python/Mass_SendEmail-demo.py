@@ -9,7 +9,7 @@ import smtplib
 def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
-def send_mail(content='邮件正文', title='邮件标题'):
+def send_mail(title, content):
     from_user = '发件人'
     to_user = '收件人'
     from_addr = '139@139.com'
@@ -27,4 +27,7 @@ def send_mail(content='邮件正文', title='邮件标题'):
     server.sendmail(from_addr, to_addr.split(','), msg.as_string())
     server.quit()
 if __name__=="__main__":
-    send_mail()
+    subject = '测试'
+    body = '邮件正文'
+    send_mail(subject, body)
+
