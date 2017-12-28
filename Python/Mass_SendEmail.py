@@ -9,7 +9,7 @@ import smtplib
 def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
-def send_mail(from_addr='139@139.com',password='******',to_addr='mygmail@gmail.com,103@qq.com',smtp_server='smtp.139.com',content='邮件正文',from_user='发件人',to_user='收件人',title='邮件标题'):
+def send_mail(from_addr='139@139.com',password='******',to_addr='deniss.wang@gmail.com,9935226@qq.com',smtp_server='smtp.139.com',content='邮件正文',from_user='发件人',to_user='收件人',title='邮件标题'):
     msg = MIMEText(content, 'plain', 'utf-8')
     msg['From'] = _format_addr(from_user+' <%s>' % from_addr)
     msg['To'] = _format_addr(to_user+' <%s>' % to_addr)
