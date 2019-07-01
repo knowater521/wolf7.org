@@ -1,5 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 import json
+import argparse
+import boto3
+import datetime
+
 json_demo1 = """
     {
     "ResultsByTime": [
