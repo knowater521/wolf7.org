@@ -60,7 +60,6 @@ if EC2_OTHER_KEYS == "EC2 - Other":
 		print ("Service: %s Bill above 1" % (EC2_OTHER_KEYS))
 		print (EC2_OTHER_AMOUNT)
 	elif (EC2_KEYS) == "Amazon Elastic Compute Cloud - Compute":
-		print (EC2_KEYS)
 	if float(EC2_AMOUNT) > 1:
 		print ("Service: %s Bill above 1" % (EC2_KEYS))
 		print (EC2_AMOUNT)
