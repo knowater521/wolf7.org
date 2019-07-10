@@ -9,7 +9,7 @@ import commands
 import datetime
 import logging
 import time
-from SendEmail import SendMail
+from AWS_SendEmail import SendMail
 from DingDing import SendMessage
 
 today = datetime.date.today()
